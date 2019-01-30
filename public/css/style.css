@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    margin: 0;
+    height: 100vh;
+    display:flex; 
+    flex-direction:column; 
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+header {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.logo {
+    border-radius: 50%;
+}
+
+.main {
+    text-align: center;
+}
+
+h1, h2 {
+    color: #2E5A98;
+}
+
+h1 {   
+    font-size: 4rem;
+    line-height: 5.6rem;
+}
+
+h2 {   
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+.coming-soon{
+    font-size: 2rem;
+    line-height: 1.25rem;
+    color: #4e5664;;
+}
+
+footer {
+    width: 100%;
+    font-size: 1rem;
+    color: #F8F8F8;
+    background-color: #2E5A98;
+}
+
+.fa-heart{
+    color: #ff0000b0;
+}
+
+
+/* Blinking cursor effect */
+.blink {
+    animation: blink-animation 1.2s steps(2, start) infinite;
+    -webkit-animation: blink-animation 1.2s steps(2, start) infinite;
+  }
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+/* End of blinking----------------------------------------------------------*/
+
+/* Follow us ------------------------------------*/
+
+
+.footer-items {
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.followus {
+    font-size: 1.2rem;
+}
+
+.followus .title {
+    margin-right: 1rem;
+    display: inline-block;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer .followus i {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: #F2F2F2;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.fa-facebook-square:hover {
+    color: #3b5998;
+  }
+
+.fa-github:hover {
+    color: #000;
+  }
+
+
+  
