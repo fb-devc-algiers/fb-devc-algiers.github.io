@@ -19,6 +19,8 @@ header {
 }
 
 .logo {
+    height: 12rem;
+    width: auto;
     border-radius: 50%;
 }
 
@@ -39,6 +41,20 @@ h2 {
     font-size: 1rem;
     line-height: 1.2rem;
 }
+
+@media all and (max-width: 768px) {
+    .logo {
+        height: 7rem;
+        width: auto;
+        border-radius: 50%;
+    }
+
+    h1 {   
+        font-size: 3rem;
+        line-height: 3.6rem;
+    }
+    
+  }
 
 .coming-soon{
     font-size: 2rem;
@@ -85,6 +101,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: baseline;
 }
 
